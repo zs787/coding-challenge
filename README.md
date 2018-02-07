@@ -55,6 +55,7 @@ We strongly encourage you to:
 
 Assumptions you can make:
 * The json and csv formats are valid and have all the fields required.
+* The file extension can be relied on to indicate what the type of file.
 
 Bonus:
 * Your code can handle gzip files as well as regular files.
