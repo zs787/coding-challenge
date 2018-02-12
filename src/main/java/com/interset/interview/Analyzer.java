@@ -104,6 +104,7 @@ public class Analyzer {
    * 
    * 
    * @param BirthDate This is human readable data formate
+   * @param trackOccurance This is the number of births corresponding to each month
    * @return Boolean Will return true or false 
    */
 	public static int[] checkMonth(String BirthDate, int[] trackOccurance) {
