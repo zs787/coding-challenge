@@ -70,7 +70,7 @@ public class Runner {
 		else if (fileExt.equals("csvgz"))
 	    {
 			//assuming new path
-			String newPath = "/root/project/coding-challenge/src/main/resources/population_large_new.csv";
+			String newPath = "population_large_new.csv";
 			
 			System.out.println("This is a CSV-GZ file!");
 			System.out.println("Extracted location is: "+newPath+"\n");
@@ -94,7 +94,7 @@ public class Runner {
 		}
 		else if (fileExt.equals("jsongz"))
 	    {
-			String newPath = "/root/project/coding-challenge/src/main/resources/population_large_new.json";
+			String newPath = "population_large_new.json";
 			
 			System.out.println("This is a JSON-GZ file!");
 			System.out.println("Extracted location is: "+newPath+"\n");
