@@ -85,7 +85,7 @@ public class Parserjson {
 				reader.close();
 				
 				//Display the returned value of the avg method
-			    System.out.println("Average Siblings: "+Analyzer.getAvg(sumSiblings,count++)+"\n");
+			    System.out.println("Average Siblings: "+Analyzer.getAvg(sumSiblings,count)+"\n");
  
         } 
 		
